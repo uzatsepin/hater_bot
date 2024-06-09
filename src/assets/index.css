@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  background-color: var(--tg-theme-bg_color, rgb(17 24 39));
+  color: var(--tg-theme-text-color, #000000);
+}
+
+.tg-movable-screen-height {
+  height: var(--tg-viewport-stable-height, 100vh);
+  background-color: var(--tg-theme-bg_color, rgb(17 24 39));
+  transition: height 0.25s ease;
+}
+
+body {
+  @apply text-white bg-gray-900;
+}
